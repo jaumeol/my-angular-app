@@ -3,10 +3,9 @@ import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'la meva primera aplicació angular';
+  title = 'la meva primera aplicació angular feta amb Copilot';
 }
