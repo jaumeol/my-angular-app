@@ -9,8 +9,8 @@ import { CalendarComponent } from './calendar/calendar.component';
 const routes: Routes = [
   { path: '', redirectTo: '/presentation', pathMatch: 'full' },
   { path: 'presentation', component: PresentationComponent },
-  { path: 'aemet-palma', component: AemetPalmaComponent },
-  { path: 'aemet-sestanyol', component: AemetSEstanyolComponent },
+  { path: 'palma', component: AemetPalmaComponent },
+  { path: 'estanyol', component: AemetSEstanyolComponent },
   { path: 'calendar', component: CalendarComponent }
 ];
 
@@ -18,4 +18,5 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
+
 export class AppRoutingModule { }
