@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterOutlet} from '@angular/router';
+import { PresentationComponent } from './presentation/presentation.component';
 
 @Component({
+  imports: [RouterOutlet, PresentationComponent],
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  title = 'la meva primera aplicació angular';
+  title = 'la meva primera aplicació angular feta amb Copilot';
 }
